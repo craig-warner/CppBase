@@ -1,3 +1,3 @@
-# @author  Barthélémy von Haller
+# @author  Craig Warner
 
 add_subdirectory(ProjA)

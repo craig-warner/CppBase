@@ -1,6 +1,6 @@
 ///
 /// @file    World.cxx
-/// @author  Barthelemy von Haller
+/// @author  Craig Warner
 ///
 
 #include "ProjA/World.h"

@@ -1,4 +1,4 @@
-# @author  Barthélémy von Haller
+# @author  Craig Warner
 set(LIB_HEADERS
   "${CMAKE_CURRENT_BINARY_DIR}/../include/ProjA/Version.h" # Generated header
   ../include/ProjA/World.h # Normal header

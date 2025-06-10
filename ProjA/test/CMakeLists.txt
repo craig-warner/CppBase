@@ -1,4 +1,4 @@
-# @author  Barthélémy von Haller
+# @author Craig Warner
 
 # Compile C++ tests (here only one, but it will grab whatever cxx is in the test directory)
 file(GLOB_RECURSE TEST_FILES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} *.cxx)

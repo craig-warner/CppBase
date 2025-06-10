@@ -10,7 +10,7 @@ The commands to build the project would be:
 ``` 
     mkdir build_dir
     cd build_dir
-    cmake .. 
+    cmake ../CppBase 
     make 
     make install
 ```

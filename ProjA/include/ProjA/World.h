@@ -8,24 +8,24 @@
 
 /// @brief    Here you put a short description of the namespace
 /// Extended documentation for this namespace
-/// @author  	Barthelemy von Haller
+/// @author  Craig Warner
 namespace ProjectTemplate {
 namespace ProjA {
 
 /// @brief   Here you put a short description of the class
 /// Extended documentation for this class.
-/// @author 	Barthelemy von Haller
+/// @author 	Craig Warner
 class World {
 public:
 
   /// @brief   Greets the caller
-  /// @author 	Barthelemy von Haller
+  /// @author 	Craig Warner
   /// @brief	Simple hello world
   void greet();
 
   /// @brief   Returns the value passed to it
   /// Longer description that is useless here.
-  /// @author 	Barthelemy von Haller
+  /// @author 	Craig Warner
   /// @param n (In) input number.
   /// @return Returns the input number given.
   int returnsN(int n);
