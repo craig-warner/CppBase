@@ -10,9 +10,11 @@ The commands to build the project would be:
 ``` 
     mkdir build_dir
     cd build_dir
+    git clone https://github.com/craig-warner/CppBase.git 
+    mkdir .vscode
+    cp CppBase/Vcs/launch.json .vscode
     cmake ../CppBase 
     make 
-    make install
 ```
 Installation goes to /usr/local/ by default.
   
@@ -30,8 +32,10 @@ One can also pass parameters to cmake when configuring it using "-DMY_VARIABLE V
 For example to build a debug version or a release version with debug symbols could look like : 
 ```
     cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo ..
-    cmake -DCMAKE_BUILD_TYPE=Debug ..
+    cmake -DCMAKE_BUILD_TYPE=Debug ../CppBase
 ```
+### Issues
+    make install - does not work; may need sudo
 
 #### List of targets 
 
@@ -118,3 +122,8 @@ of simplicity.
 
 For any question, please contact:
 Barthélémy von Haller (barthelemy_vonhaller@yahoo.fr)
+
+## VS Code Setup 
+
+See Vsc/launch.json
+This file should be copied to .vscode directory  
